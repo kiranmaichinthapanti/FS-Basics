@@ -1,0 +1,11 @@
+#academia{
+    background-image: url('https://preview.colorlib.com/theme/academia/images/bg_1.jpg');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+#academia a{
+    color: aqua;
+}

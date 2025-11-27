@@ -1,0 +1,40 @@
+/* h1{
+    color: #0657d0;
+}
+
+h2{
+    color: hsl(9, 69%, 52%);
+}
+
+h3{
+    color: rgb(188, 95, 212);
+} */
+
+#demand-container {
+    color: green;
+    border: 1px solid black
+}
+#creative-art-container{
+    color: gray;
+    border: 5px dotted gray;
+}
+#finance-accounting{
+    color: blue;
+    border: 5px double brown;
+}
+#medical{
+    color: cadetblue;
+    border: 5px dashed blueviolet;
+}
+#corporate{
+    color: gold;
+    border: 1px solid yellowgreen;
+}
+#marketing{
+    color:chocolate;
+    border: 5px dotted pink;
+}
+#programming-it{
+    color: purple;
+    border: 5px dashed royalblue;
+}
