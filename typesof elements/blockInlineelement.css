@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#easylo {
+    background-color: blueviolet;
+}
+
+#apply-for-loan {
+    background-color: brown;
+}
+
+#we-guide-projects{
+    padding: 70px 150px;
+}
+
+#customer-satisfaction, #we-guide-projects-organizations {
+    float: left;
+    width: 50%;
+}
+
+#customer-satisfaction {
+    text-align: center;
+}
+
+#customer-satisfaction img {
+    width: 65%;
+}
+
+#we-guide-projects-organizations h1 {
+    font-size: 45px;
+}
+
+#we-guide-projects-organizations p {
+    color: #6d6d6d;
+}
+
+#no-of-customers {
+    margin-bottom: 35px;
+}
+
+#we-guide-projects-organizations a {
+    border: 2px solid #10c98f;
+    color: #10c98f;
+    padding: 14px 18px;
+    font-weight: bold;
+}
+
+br {
+    clear: left;
+}
+
+#why-choose-us {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+#services {
+    padding: 30px 100px;
+    height: 250px;
+}
+
+.service {
+    float: left;
+    width: 18%;                /* equal size → 4 divisions */
+    margin: 0 1%;              /* small clean spacing */
+    padding: 20px 20px;        /* equal padding inside */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+hr {
+    text-align: center;
+    width: 6%;
+    background-color: rgb(16, 201, 143);
+    height: 3px;
+    border: none;
+}
+
+.service p {
+    line-height: 25px;
+    font-size: 14px;
+    text-align: justify;
+}

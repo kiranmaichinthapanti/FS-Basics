@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+#architecture-design {
+    background-image: url('https://preview.colorlib.com/theme/heaven/img/banner_bg_1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 6rem 4rem 10rem 4rem;
+    position: relative;
+    outline: 5px solid orange;
+    border : 5px solid blue;
+    margin: 10px;
+}
+#architecture-design-inner {
+    width: 40%;
+}
+
+#architecture-design h3 {
+    color:  #ff7d03;
+    font-weight: normal;
+}
+
+#architecture-design h1 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+#architecture-design p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#architecture-design a {
+    font-weight: bold;
+}
+
+#innovative {
+    position: absolute;
+    top: 480px;
+    left: 200px;
+    width: 75%;
+}
+
+#innovative, .innovative{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    background-color: white;
+    color: black;
+}
+
+.innovative {
+    padding: 30px;
+}
+
+#second-innovative {
+    border-left: 1.5px solid #d3d3d3;
+    border-right: 1.5px solid #d3d3d3;
+}
+
+#validation-message {
+    /* margin-top: 8rem; */
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    /* display: block; */
+    visibility: visible;
+}

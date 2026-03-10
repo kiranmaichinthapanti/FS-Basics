@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <form>
+            <div>
+                <label>Firstname</label>
+                <input type="text" placeholder="Enter Firstname" name="firstName" required>
+            </div>
+            <div>
+                <label>Lastname</label>
+                <input type="text" placeholder="Enter Lastname" name="lastName">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" placeholder="Enter Email" name="email">
+            </div>
+            <div>
+                <label>Date of Birth</label>
+                <input type="datetime-local" name="dateOfBirth">
+            </div>
+            <div>
+                <label>Gender</label>
+                <input type="radio" name="gender" checked><span>Male</span>
+                <input type="radio" name="gender"><span>Female</span>
+            </div>
+            <div>
+                <label>Languages Known</label>
+                <input type="checkbox" name="languagesKnown"><span>Telugu</span>
+                <input type="checkbox" name="languagesKnown"><span>English</span>
+                <input type="checkbox" name="languagesKnown"><span>Hindi</span>
+            </div>
+            <div>
+                <label>Mobile No</label>
+                <input type="number" placeholder="Enter Mobile No" name="mobileNo">
+            </div>
+            <div>
+                <label>City</label>
+                <select name="city">
+                    <option>Select</option>
+                    <option>Hyderabad</option>
+                    <option>Bengalure</option>
+                    <option>Chennai</option>
+                </select>
+            </div>
+            <div>
+                <label>Profile Picture</label>
+                <input type="file" name="profilePicture" accept="image/*">
+            </div>
+
+            <div>
+                <label>Comments</label>
+                <textarea row="4"></textarea>
+            </div>
+            <input type="submit" value="Register">
+        </form>
+        
+    </body>
+</html>

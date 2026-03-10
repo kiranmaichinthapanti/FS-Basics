@@ -1,0 +1,30 @@
+nav {
+    padding:10px 90px;
+}
+
+#top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-navbar i {
+    margin-right: 10px;
+}
+
+#top-navbar button {
+    background-color: black;
+    color: white;
+}
+
+#bottom-navbar ul {
+    display: flex;
+    column-gap: 40px;
+    list-style-type: none;
+    font-size: 16px;
+    align-items: center;
+    padding-left: 0px;
+}
+#bottom-navbar a {
+    text-decoration: none;
+}
